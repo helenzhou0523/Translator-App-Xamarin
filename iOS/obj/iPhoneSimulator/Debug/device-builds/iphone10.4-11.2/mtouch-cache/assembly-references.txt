@@ -32,3 +32,17 @@
 /Users/helen/Projects/MSTranslator/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll
+/Users/helen/Projects/MSTranslator/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Runtime.Numerics.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/System.Numerics.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlDocument.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Primitives.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.TypeConverter.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Formatters.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Reflection.Primitives.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.Extensions.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll

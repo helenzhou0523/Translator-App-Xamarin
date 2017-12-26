@@ -21,13 +21,21 @@
 	/Users/helen/Projects/MSTranslator/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-symbols.list \
 	--dsym=no \
 	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
 	/Users/helen/Projects/MSTranslator/bin/Debug/MSTranslator.dll \
 	-r \
+	/Users/helen/Projects/MSTranslator/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.IO.Compression.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.Http.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
@@ -316,6 +324,8 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
 	/Users/helen/Projects/MSTranslator/bin/Debug/MSTranslator.dll \
+	-r \
+	/Users/helen/Projects/MSTranslator/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
 	-r \
 	/Users/helen/Projects/MSTranslator/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \

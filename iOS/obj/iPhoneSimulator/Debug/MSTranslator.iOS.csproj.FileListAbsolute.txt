@@ -55,3 +55,5 @@
 /Users/helen/Projects/MSTranslator/iOS/obj/iPhoneSimulator/Debug/MSTranslator.iOS.csproj.CoreCompileInputs.cache
 /Users/helen/Projects/MSTranslator/iOS/obj/iPhoneSimulator/Debug/MSTranslator.iOS.exe
 /Users/helen/Projects/MSTranslator/iOS/obj/iPhoneSimulator/Debug/MSTranslator.iOS.pdb
+/Users/helen/Projects/MSTranslator/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/helen/Projects/MSTranslator/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml

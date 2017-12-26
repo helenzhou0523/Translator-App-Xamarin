@@ -1,17 +1,19 @@
 ﻿using Xamarin.Forms;
-using System;
 using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System;
+using System.IO;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace MSTranslator
 {
     public partial class MSTranslatorPage : ContentPage
     {
-        public MSTranslatorPage()
-        {
-            InitializeComponent();
-
-            //language dictionary
-            Dictionary<string, string> lan = new Dictionary<string, string>
+        //language dictionary
+        Dictionary<string, string> lan = new Dictionary<string, string>
             {
                 {"Afrikaans", "af"},
                 {"Albanian", "sq"},
@@ -116,8 +118,11 @@ namespace MSTranslator
                 {"Yiddish", "yi"},
                 {"Yoruba", "yo"},
                 {"Zulu", "zu"}
-
             };
+
+        public MSTranslatorPage()
+        {
+            InitializeComponent();
 
             //add items to picker
             foreach(string language in lan.Keys){
@@ -128,13 +133,48 @@ namespace MSTranslator
             sourcePicker.SelectedItem = "English";
             targetPicker.SelectedItem = "Chinese Simplified";
 
-            /* static void Translate(string text, string targetLanguageCode, string sourceLanguageCode)
-            {
-                TranslationClient client = TranslationClient.Create();
-                var response = client.TranslateText(text, targetLanguageCode,
-                    sourceLanguageCode);
-                Console.WriteLine(response.TranslatedText);
-            }*/
+
         }
+
+        public async void Translate(object sender, EventArgs e)
+        {
+            //get the source and target languages
+            string text = textEntry.Text;
+
+            //if there is no input text
+            if(text == ""){
+                await DisplayAlert("Alert", "Input Text Needed", "OK");
+                return;
+            }
+
+            string sourceLanguage = (string)sourcePicker.SelectedItem;
+            string targetLanguage = (string)targetPicker.SelectedItem;
+
+            // generate the request url
+            string requestURL = string.Format(
+                "https://translation.googleapis.com/language/translate/v2?key=AIzaSyC0ojhhpWRxKHWj7k5bI2sZh5SXejTVW9s&source={0}&target={1}&q={2}", 
+                lan[sourceLanguage], lan[targetLanguage], text);
+
+            var client = new HttpClient();
+            var requestContent = new FormUrlEncodedContent(new[] {
+                new KeyValuePair<string, string>("text", "This is a block of text"),
+            });
+
+            // send request and get response
+            HttpResponseMessage response = await client.PostAsync(requestURL, requestContent);
+            HttpContent responseContent = response.Content;
+
+            // parse response
+            using (var reader = new StreamReader(await responseContent.ReadAsStreamAsync()))
+            {
+                // Write the output.
+                JObject jResponse = JObject.Parse(await reader.ReadToEndAsync());
+                JObject ojObject = (JObject)jResponse["data"];
+                JArray array = (JArray)ojObject["translations"];
+                var values = JsonConvert.DeserializeObject<Dictionary<string, string>>(array[0].ToString());
+                Result.Text = values["translatedText"];
+            }
+        }
+
     }
 }

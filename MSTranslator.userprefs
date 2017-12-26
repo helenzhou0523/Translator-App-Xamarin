@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{15601E0A-AAC5-40F8-A24E-B6F865BA8006}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="MSTranslatorPage.xaml.cs">
     <Files>
-      <File FileName="MSTranslatorPage.xaml" Line="21" Column="24" />
-      <File FileName="MSTranslatorPage.xaml.cs" Line="14" Column="13" />
+      <File FileName="MSTranslatorPage.xaml" Line="25" Column="32" />
+      <File FileName="MSTranslatorPage.xaml.cs" Line="146" Column="72" />
+      <File FileName="iOS/Main.cs" Line="21" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

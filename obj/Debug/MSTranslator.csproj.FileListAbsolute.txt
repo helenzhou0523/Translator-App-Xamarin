@@ -15,3 +15,5 @@
 /Users/helen/Projects/MSTranslator/obj/Debug/MSTranslator.MSTranslatorPage.xaml.g.cs
 /Users/helen/Projects/MSTranslator/obj/Debug/MSTranslator.dll
 /Users/helen/Projects/MSTranslator/obj/Debug/MSTranslator.pdb
+/Users/helen/Projects/MSTranslator/bin/Debug/Newtonsoft.Json.dll
+/Users/helen/Projects/MSTranslator/bin/Debug/Newtonsoft.Json.xml
