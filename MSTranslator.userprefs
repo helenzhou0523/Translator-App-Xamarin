@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{15601E0A-AAC5-40F8-A24E-B6F865BA8006}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MSTranslatorPage.xaml.cs">
+    <Files>
+      <File FileName="MSTranslatorPage.xaml" Line="21" Column="24" />
+      <File FileName="MSTranslatorPage.xaml.cs" Line="14" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MSTranslator.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F44F0693-B72C-4C69-A43F-196E77F20359">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MSTranslator.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>
