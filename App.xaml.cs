@@ -9,6 +9,7 @@ namespace MSTranslator
             InitializeComponent();
 
             MainPage = new MSTranslatorPage();
+
         }
 
         protected override void OnStart()

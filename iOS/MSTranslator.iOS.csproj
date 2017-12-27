@@ -110,6 +110,7 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Screen Shot 2017-12-26 at 15.58.38.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

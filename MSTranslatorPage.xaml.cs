@@ -173,6 +173,11 @@ namespace MSTranslator
                 JArray array = (JArray)ojObject["translations"];
                 var values = JsonConvert.DeserializeObject<Dictionary<string, string>>(array[0].ToString());
                 Result.Text = values["translatedText"];
+
+                //add to history
+                var his = new Label();
+                his.Text = text + ": " + Result.Text;
+                layout.Children.Add(his);
             }
         }
 

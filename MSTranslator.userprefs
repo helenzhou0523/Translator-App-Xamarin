@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{15601E0A-AAC5-40F8-A24E-B6F865BA8006}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MSTranslatorPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
     <Files>
-      <File FileName="MSTranslatorPage.xaml" Line="25" Column="32" />
-      <File FileName="MSTranslatorPage.xaml.cs" Line="146" Column="72" />
-      <File FileName="iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="MSTranslatorPage.xaml.cs" Line="142" Column="36" />
+      <File FileName="iOS/Main.cs" Line="15" Column="48" />
+      <File FileName="MSTranslatorPage.xaml" Line="15" Column="53" />
+      <File FileName="iOS/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -11,7 +12,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MSTranslator.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F44F0693-B72C-4C69-A43F-196E77F20359">
+  <MonoDevelop.Ide.ItemProperties.MSTranslator.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F44F0693-B72C-4C69-A43F-196E77F20359" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.MSTranslator.iOS>
   <MultiItemStartupConfigurations />
