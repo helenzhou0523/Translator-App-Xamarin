@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{15601E0A-AAC5-40F8-A24E-B6F865BA8006}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MSTranslatorPage.xaml.cs">
     <Files>
-      <File FileName="MSTranslatorPage.xaml.cs" Line="142" Column="36" />
+      <File FileName="MSTranslatorPage.xaml.cs" Line="155" Column="146" />
       <File FileName="iOS/Main.cs" Line="15" Column="48" />
-      <File FileName="MSTranslatorPage.xaml" Line="15" Column="53" />
+      <File FileName="MSTranslatorPage.xaml" Line="39" Column="1" />
       <File FileName="iOS/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>

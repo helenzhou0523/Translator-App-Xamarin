@@ -152,7 +152,7 @@ namespace MSTranslator
 
             // generate the request url
             string requestURL = string.Format(
-                "https://translation.googleapis.com/language/translate/v2?key=AIzaSyC0ojhhpWRxKHWj7k5bI2sZh5SXejTVW9s&source={0}&target={1}&q={2}", 
+                "Google Translator API key", 
                 lan[sourceLanguage], lan[targetLanguage], text);
 
             var client = new HttpClient();

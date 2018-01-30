@@ -11,7 +11,7 @@
 namespace MSTranslator {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/helen/Projects/MSTranslator/MSTranslatorPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/helen/Desktop/MSTranslator/MSTranslatorPage.xaml")]
     public partial class MSTranslatorPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
